@@ -1,0 +1,11 @@
+[package]
+name = "2048"
+version = "0.1.0"
+authors = ["Jack Arthur Harrhy <jack@jackharrhy.com>"]
+
+[dependencies]
+rand = "0.3"
+
+[[bin]]
+name = "2048"
+path = "2048.rs"
